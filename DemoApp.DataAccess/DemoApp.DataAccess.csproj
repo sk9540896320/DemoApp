@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>DemoApp.DataAccess</AssemblyName>
+    <RootNamespace>DemoApp.DataAccess</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Demo.Framework.DataAccess" Version="202008.12.1" />
+    <PackageReference Include="Demo.Framework.Entity" Version="202008.12.1" />
+    <PackageReference Include="morelinq" Version="3.3.2" />
+    <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="3.0.58" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoApp.Constant\DemoApp.Constant.csproj" />
+    <ProjectReference Include="..\DemoApp.Entity\DemoApp.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Demo.Framework.Business" Version="202008.12.1" />
+    <PackageReference Include="Demo.Framework.Constant" Version="202008.12.1" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="vCardLib.dll" Version="3.0.1" />
+    <PackageReference Include="CsvHelper" Version="15.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoApp.Constant\DemoApp.Constant.csproj" />
+    <ProjectReference Include="..\DemoApp.DataAccess\DemoApp.DataAccess.csproj" />
+    <ProjectReference Include="..\DemoApp.Entity\DemoApp.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
